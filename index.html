@@ -5,103 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link font='https://fonts.googleapis.com/css?family=Concert+One|Oswald');
+            </style>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header -->
-        <div class="container">
-            <header class="row">
-                <div class="col-xs-8 col-sm-4 col-md-6 centered">
-                    <img src="images/w.png" alt="W logo" class="pull-left logo">
-                <h1 class="pull-left text-center">Coding / Educational Technology Portfolio</h1>
-                </div>
-                <nav class="col-xs-12 col-sm-7 col-md-6">
-                    <ul class="nav nav-pills pull-right">
-                        <li role="presentation">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#">Products</a>
-                        </li>
-                        <li role="presentation" class="active">                                <a href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <div class="container">
+        <header class="row">
+            <div class="col-xs-8 col-sm-4 col-md-6 centered">
+                <img src="images/w.png" alt="W logo" class="pull-left wlogo">
+            <!-- <h1 class="mainfont text-center">Ed Warkentin's Coding/EdTech Portfolio</h1> -->
+            </div>
+            <nav class="col-xs-12 col-sm-7 col-md-6">
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation">
+                        <a class="mainfont active" href="index.html">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a class="mainfont" href="#coding">Coding Projects</a>
+                    </li>
+                    <li role="presentation" class="mainfont"><a href="#edtech">Educational Technology</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
 <!-- Coding Projects -->
-
     <div class="container">
-        <h1 class="codeproj text-center">Coding Projects</h1>
-    </div>
+        <div class="row">
+            <h1 id="coding" class="mainfont codeproj text-center">Ed Warkentin's Coding and Educational Technology Portfolio <br>Coding Projects</h1>
+        </div>
 
-    <div class="row">
-        <div class="container">
+        <div class="row">
+        <div class="container top-row">
             <div class="col-md-3 text-center">
-                <p>Star Trek mini-Fan Site</p>
-                <p>HTML & CSS</p>
-                <p>Final Project from "Websites for Beginners"</p>
+                <a href="https://edwarkentin.github.io/startrek/"> <p class="mainfont">Star Trek mini-Fan Site</p></a>
+                <a href="https://edwarkentin.github.io/startrek/"
+                ><img class="project-logo" src="images/badge.jpg" alt="Star Trek badge"></a>
+                <p class="mainfont">HTML & CSS</p>
+                <p class="mainfont">Final Project from "Websites for Beginners"</p>
             </div>
             <div class="col-md-3 text-center">
-                <p>Pet Shop</p>
-                <p>HTML, CSS, Bootstrap</p>
-                <p>Project from Mobile Friendly Websites</p>
+                <a href="https://edwarkentin.github.io/mfw-pet-store"><p class="mainfont">Pet Shop</p></a>
+                <a href="https://edwarkentin.github.io/mfw-pet-store"><img class="project-logo" src="images/petstore_logo.png" alt="pet shop logo"></a>
+                <p class="mainfont">HTML, CSS, Bootstrap</p>
+                <p class="mainfont">Project from Mobile Friendly Websites</p>
             </div>
             <div class="col-md-3 text-center">
-                <p>Restaurante</p>
-                <p>HTML, CSS, Bootstrap</p>
-                <p>Project from Mobile Friendly Websites</p>
+                <a href="https://edwarkentin.github.io/mfw-restaurante/"><p class="mainfont">Restaurante</p></a>
+                <a href="https://edwarkentin.github.io/mfw-restaurante/"><img class="project-logo restaurantelogo" src="images/food_review.jpg" alt="restaurante image"></a>
+                <p class="mainfont">HTML, CSS, Bootstrap</p>
+                <p class="mainfont">Project from Mobile Friendly Websites</p>
             </div>
             <div class="col-md-3 text-center">
-                <p>Learning...</p>
-                <p>Python</p>
-                <p>Using SoloLearn, as well as some very helpful books, to explore Python</p>
+                <a href="https://www.sololearn.com/Course/Python/"><p class="mainfont">Learning Python</p></a>
+                <a href="https://www.sololearn.com/Course/Python/"><img class="project-logo" src="images/python-logo.png" alt="Python logo"></a>
+                
+                <p class="mainfont"><br>Using SoloLearn, as well as some very helpful books, to explore Python</p>
             </div>
         </div>
+        </div>
     </div>
+
 
 <!-- Ed Tech -->
-    <div class="row">
-        <h1 class="edtech text-center">Educational Technology</h1>
+    <div class="container">
+        <div class="row"> <!--Ed Tech Header-->
+            <h1 id="edtech" class="mainfont edtech text-center">Educational Technology</h1>
+        </div>
 
-        <div class="col-md-3 text-center"> <!--Change width-->
-            <img> <!--Google Certified Educator badge--></img>
-            <p>Working on Level 2 and beyond</p>
-        </div>
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/111258144" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-        <p>I teach “All Things Google” to adults all over the country using the Moodle platform, for Fresno Pacific University’s Continuing Education
-        </p>        
-    </div>
-    <div class="row">
-        <div class="col-md-3 text-center">
-            <!-- Edgenuity logo/website -->
-            <p>Edgenuity is a website that many high schools use for both original credit courses and credit recovery
-            </p>
-        </div>
-        <div class="col-md-3 text-center">
-            <!--Screenshot of SS, Form,etc.-->
-            <p>I am always looking for ways that a technology tool can solve a problem. Here are some examples 
-            </p>
-        </div>
-        <div class="col-md-3 text-center">
-            <p>School websites</p>
-            <p>I am the webmaster for 3 school sites’ Blackboard websites
-            </p>
-        </div>
-        <div class="col-md-3 text-center">
-            <p>Google Sites</p>
-            <p>I have used Google Sites for years for a classroom website</p>
+        <div class="row"> <!--Google & Edgenuity-->
+            <div class="col-md-3 text-center"><!--GCE Badge-->
+                <img class="mainfont project-logo" src="images/GCE_badge1.png" alt="Google Certified Educator Level 1 badge"/>
+                <p class="mainfont">I am a "Google Certified Educator", <br>Level 1. <br>I am working on Level 2 (and beyond).</p>
+            </div>
+    
+            <div class="col-md-3 text-center"><!--Google Icons-->
+                <img class="project-logo googleicons" src="images/googleicons.jpg" alt="Google Icons">
+                <p class="mainfont">I am always looking for ways that a technology tool can solve a problem. I have used these tools to meet various needs in my classroom and my schools. 
+                </p>
+            </div>
+
+            <div class="col-md-3 text-center"><!--Google Sites-->
+                <a href="https://sites.google.com/site/misterwarkentin/"><img class=project-logo src="images/gsitesicon.png" alt="Google Sites icon"></a>
+                <p class="text-center">I have used <a class="mainfont" href="https://sites.google.com/">Google Sites</a> for years to create classroom websites to provide resources to my <a href="https://sites.google.com/site/misterwarkentin/">students</a> and <a class="mainfont" href="https://sites.google.com/view/altedwithed/home">colleagues</a>.</p>
+            </div>
+    
+            <div class="col-md-3 text-center"><!--Edgenuity-->
+                <a href="https://www.edgenuity.com/"><img class="project-logo" src="images/edgenuity-logo.jpg" alt="Edgenuity logo"></a>
+                <p class="mainfont" ><a href="https://www.edgenuity.com">Edgenuity</a> is a website that our high schools use for both original credit courses and credit recovery. I have written a hyper-text <a href="https://docs.google.com/document/d/10uAi4yQ2lzKvYDqzvfL8I1IHDSOu8Uhmf5x1XUeMz5E/edit?usp=sharing">"How-To and Best Practices" document</a> to gather all the wisdom from our school on how to use this with students.
+                </p>
+            </div>
         </div>
     </div>
 
-
-
-
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/111258144" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
-
+<!-- 3rd Row -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"> <!--School websites-->
+                <div class="col-md-4 school">
+                    <a class="mainfont" href="https://www.dinuba.k12.ca.us/Domain/15">Sierra Vista High School</a>
+                    <a class="mainfont" href="https://www.dinuba.k12.ca.us/Domain/15">
+                    <img class="schoolicon" src="images/svhsicon.png" alt="Sierra Vista High School"></a>
+                </div>
+                <div class="col-md-4 school">
+                    <a class="mainfont" href="https://www.dinuba.k12.ca.us/Domain/16">Ronald Reagan Academy</a>
+                    <a href="https://www.dinuba.k12.ca.us/Domain/16">
+                    <img class="schoolicon" src="images/rraicon.png" alt="Ronald Reagan Academy"></a>
+                </div>
+                <div class="col-md-4 school">
+                    <a href="https://www.dinuba.k12.ca.us/Adult">Dinuba Adult School</a>
+                    <a href="https://www.dinuba.k12.ca.us/Adult">
+                    <img class="schoolicon" src="images/dasicon.png" alt="Dinuba Adult School"></a>
+                </div>
+                <p class="mainfont" >I am the webmaster for 3 school sites’ Blackboard websites
+                    </p>
+            </div>
+            <div class="col-md-6 text-center"> <!--VIMEO GOOGLE VIDEO-->
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/111258144" width="400" height="250" frameborder="0" allowfullscreen></iframe>
+                <p class="mainfont atgtext">I teach <a href="https://ce.fresno.edu/independent-studies/tec-957">“All Things Google”</a> to adults all over the country using the Moodle platform, for Fresno Pacific University’s Continuing Education
+                </p>    
+            </div>
+        </div>
+    </div>    
 </body>
 </html>

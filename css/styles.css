@@ -1,3 +1,88 @@
-.logo {
+/* HEADER */
+.wlogo {
     width: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Oswald');
+
+.mainfont .h1{
+    font-family: 'Concert One', cursive;
+}
+
+.secondfont {
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.project-logo {
+    height: 150px;
+}
+
+.restaurantelogo {
+    height: 150px;
+    width: 200px;
+}
+
+/* CAROUSEL OF SCHOOLS
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item {
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('../images/svhsicon.png');
+}
+
+.main_img2 {
+    background-image: url('../images/rraicon.png');
+}
+
+.main_img3 {
+    background-image: url('../images/dasicon.png');
+}
+
+.main_logo {
+    max-height: 300px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #f8512f;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #d34326;
+    border-color: transparent;
+}
+
+.carousel-caption p {
+    color: #f7f7f7;
+    font-size: 16px;
+} */
+
+.atgtext {
+    width: 500px;
+}
+
+.schoolicon {
+    width: 150px;
 }
