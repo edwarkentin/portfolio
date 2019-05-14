@@ -1,16 +1,30 @@
 /* HEADER */
-.wlogo {
-    width: 70px;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Oswald');
 
-.mainfont .h1{
+.wlogo {
+    width: 45px;
+}
+
+.nav-pills a {
+    font-size: 24px;
+}
+
+.mainfont {
     font-family: 'Concert One', cursive;
 }
 
 .secondfont {
     font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.sitelink {
+    font-size: 24px;
+}
+
+.schoolsitelink {
+    font-size: 18px;
+    text-align: center;
 }
 
 .top-row {
@@ -30,59 +44,60 @@
     width: 200px;
 }
 
-/* CAROUSEL OF SCHOOLS
-.carousel {
-    margin-bottom: 60px;
-}
-
-.carousel-caption {
-    z-index: 10;
-    padding-bottom: 60px;
-}
-
-.carousel-inner .item {
-    width: 50%;
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-}
-
-.main_img1 {
-    background-image: url('../images/svhsicon.png');
-}
-
-.main_img2 {
-    background-image: url('../images/rraicon.png');
-}
-
-.main_img3 {
-    background-image: url('../images/dasicon.png');
-}
-
-.main_logo {
-    max-height: 300px;
-}
-
-.btn-primary {
-    color: #ffffff;
-    background-color: #f8512f;
-    border-color: transparent;
-}
-
-.btn-primary:hover {
-    background-color: #d34326;
-    border-color: transparent;
-}
-
-.carousel-caption p {
-    color: #f7f7f7;
-    font-size: 16px;
-} */
-
 .atgtext {
     width: 500px;
 }
 
 .schoolicon {
-    width: 150px;
+    /* align-self: center; */
+    width: 120px;
 }
+
+/* ON ROW HOLDING ALL 3 COLUMNS */
+.allschools {
+    display: flex;
+}
+
+/* ON EACH OF THE COLUMNS */
+.school {
+    align-self: center;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+    /* background-color: #6AB4E1;*/
+    height: 100px;
+    /* width: 100%; */
+}
+.footer-col {
+    height: 72px;
+    /* width: 33%; */
+    float: left;
+    text-align: center;
+}
+button {
+    height: 20px;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 38px;
+}
+input {
+    width: 100px;
+}
+.social-media {
+    margin-top: 27px;
+}
+.fa-facebook-square {
+    color: #C32228;
+}
+.fa-twitter-square {
+    color: #C32228;    
+}
+.fa-hand-spock {
+    color: #C32228;
+}
+.copyright {
+    margin-top: 20px;
+}
+/*********End of Footer********/
