@@ -5,19 +5,36 @@
     width: 45px;
 }
 
+.headfootcolor, .title {
+    background-color: #f0c432;
+}
+
+.bottomcolor {
+    background-color: rgb(245, 9, 9);
+}
 .nav-pills a {
     font-size: 24px;
 }
 
 .mainfont {
     font-family: 'Concert One', cursive;
+    color: white;
 }
 
 .secondfont {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    color: white;
 }
 
+.headerfont {
+    color: black;
+}
+
+.col-md-3 {
+    border: black;
+    border-width: 3px;
+}
 .sitelink {
     font-size: 24px;
 }
@@ -33,6 +50,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+
+.codingprojects {
+    background-color: #3e9d1e;
+    /* background-color: rgb(102, 102, 153, 90); */
+}
+
+.secondrow, .thirdrow {
+    background-color: #5c56c9;
 }
 
 .project-logo {
@@ -53,12 +79,10 @@
     width: 120px;
 }
 
-/* ON ROW HOLDING ALL 3 COLUMNS */
 .allschools {
     display: flex;
 }
 
-/* ON EACH OF THE COLUMNS */
 .school {
     align-self: center;
 }
@@ -76,28 +100,17 @@
     float: left;
     text-align: center;
 }
-button {
-    height: 20px;
-    width: 100px;
-    border-radius: 3px;
-    margin-top: 38px;
-}
-input {
-    width: 100px;
-}
+
 .social-media {
     margin-top: 27px;
 }
-.fa-facebook-square {
-    color: #C32228;
+
+.contactme, .copyright {
+    margin-top: 30px;
 }
+
 .fa-twitter-square {
     color: #C32228;    
 }
-.fa-hand-spock {
-    color: #C32228;
-}
-.copyright {
-    margin-top: 20px;
-}
+
 /*********End of Footer********/

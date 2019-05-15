@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
     <link rel="icon" href="images/favicon.ico" type="images/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link font='https://fonts.googleapis.com/css?family=Concert+One|Oswald'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -16,7 +18,7 @@
 
 <body>
     <!-- Header -->
-    <div class="container">
+    <div class="container-fluid headfootcolor">
         <header class="row">
             <div class="col-xs-8 col-sm-4 col-md-6 centered">
                 <img src="images/w.png" alt="W logo" class="pull-left wlogo">
@@ -25,12 +27,12 @@
             <nav class="col-xs-12 col-sm-7 col-md-6">
                 <ul class="nav nav-pills pull-right">
                     <li role="presentation">
-                        <a class="mainfont active" href="index.html">Home</a>
+                        <a class="mainfont headerfont active" href="index.html">Home</a>
                     </li>
                     <li role="presentation">
-                        <a class="mainfont" href="#coding">Coding</a>
+                        <a class="mainfont headerfont" href="#coding">Coding</a>
                     </li>
-                    <li role="presentation" class="mainfont"><a href="#edtech">Ed Tech</a>
+                    <li role="presentation"><a class="mainfont headerfont" href="#edtech">Ed Tech</a>
                     </li>
                 </ul>
             </nav>
@@ -38,14 +40,18 @@
     </div>
 
     <!-- Coding Projects -->
-    <div class="container">
+    <div class="container-fluid codingprojects">
+        <div class="row title">
+            <h1 id="coding" class="mainfont headerfont codeproj headfootcolor text-center">Ed Warkentin's Coding and
+                Educational Technology
+                Portfolio</h1>
+        </div>
         <div class="row">
-            <h1 id="coding" class="mainfont codeproj text-center">Ed Warkentin's Coding and Educational Technology
-                Portfolio <br>Coding Projects</h1>
+            <h1 id="coding" class="mainfont headerfont codeproj text-center">Coding Projects</h1>
         </div>
 
         <div class="row">
-            <div class="container top-row">
+            <div class="container-fluid top-row">
                 <div class="col-md-3 text-center">
                     <a href="https://edwarkentin.github.io/startrek/">
                         <p class="mainfont sitelink">Star Trek mini-Fan Site</p>
@@ -80,18 +86,17 @@
                     <a href="https://www.sololearn.com/Course/Python/"><img class="project-logo"
                             src="images/python-logo.png" alt="Python logo"></a>
 
-                    <p class="secondfont"><br>Using SoloLearn, as well as some very helpful books, to explore Python</p>
+                    <p class="secondfont"><br>Using SoloLearn, and some books, to explore Python</p>
                 </div>
             </div>
         </div>
     </div>
 
-
     <!-- Ed Tech -->
-    <div class="container">
+    <div class="container-fluid secondrow">
         <div class="row">
             <!--Ed Tech Header-->
-            <h1 id="edtech" class="mainfont edtech text-center">Educational Technology</h1>
+            <h1 id="edtech" class="mainfont headerfont edtech text-center">Educational Technology</h1>
         </div>
 
         <div class="row">
@@ -107,8 +112,7 @@
             <div class="col-md-3 text-center">
                 <!--Google Icons-->
                 <img class="project-logo googleicons" src="images/googleicons.jpg" alt="Google Icons">
-                <p class="secondfont">I am always looking for ways that a technology tool can solve a problem. I have
-                    used these tools to meet various needs in my classroom and my schools.
+                <p class="secondfont">I am always looking for ways that a technology tool can solve a problem. I have used these tools to meet various needs in my classroom and my schools.
                 </p>
             </div>
 
@@ -136,15 +140,17 @@
         </div>
     </div>
     <!-- 3rd Row -->
-    <div class="container">
+    <div class="container-fluid thirdrow">
         <div class="row">
             <div class="col-md-6 text-center">
                 <!--School websites-->
                 <div class="row allschools">
                     <div class="col-md-12" id="schoollogos">
                         <div class="col-md-4 school">
-                            <a class="mainfont schoolsitelink" href="https://www.dinuba.k12.ca.us/Domain/15">Sierra Vista High School</a>
-                            <a class="mainfont" href="https://www.dinuba.k12.ca.us/Domain/15"><img class="schoolicon" src="images/svhsicon.png" alt="Sierra Vista High School"></a>
+                            <a class="mainfont schoolsitelink" href="https://www.dinuba.k12.ca.us/Domain/15">Sierra
+                                Vista High School</a>
+                            <a class="mainfont" href="https://www.dinuba.k12.ca.us/Domain/15"><img class="schoolicon"
+                                    src="images/svhsicon.png" alt="Sierra Vista High School"></a>
                         </div>
                         <div class="col-md-4 school">
                             <a class="mainfont schoolsitelink" href="https://www.dinuba.k12.ca.us/Domain/16">Ronald
@@ -162,9 +168,9 @@
                     </div>
                 </div>
                 <div class="row">
-                        <p class="secondfont">I am the webmaster for 3 school sites’ Blackboard websites
-                        </p>
-                    </div>
+                    <p class="secondfont">I am the webmaster for 3 school sites’ Blackboard websites.
+                    </p>
+                </div>
 
 
             </div>
@@ -174,23 +180,70 @@
                     frameborder="0" allowfullscreen></iframe>
                 <p class="secondfont atgtext">I teach <a href="https://ce.fresno.edu/independent-studies/tec-957">“All
                         Things Google”</a> to adults all over the country using the Moodle platform, for Fresno Pacific
-                    University’s Continuing Education
+                    University’s Continuing Education.
                 </p>
             </div>
         </div>
     </div>
-    <footer class="container-fluid footer">
-        <div class="footer-col col-md-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe7FuMvbrEBtkvqbryuKrRCyoeHY-bTRSRt7GYo0qzFgTR4Q/viewform?usp=sf_link" target="_blank">Contact Me</a>
+
+<!-- CODING IN THE CLASSROOM -->
+    <div class="container-fluid fourthrow bottomcolor">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mainfont headerfont codeproj text-center">Coding in the Classroom (Coding + Education)</h1>
+            </div>
+
+            <div class="row"> 
+                <!--SCRATCH-->
+                <div class="col-md-3 text-center">
+                    <a href="https://scratch.mit.edu/"><p class="mainfont sitelink">Scratch Programming</p>
+                    </a>
+                    <a href="https://scratch.mit.edu/"><img class="project-logo" src="images/ScratchCat.png" alt="Scratch cat"></a>
+                    <p class="secondfont">Taught at <a href="https://www.fresno.edu/">Fresno Pacific University</a>'s "Junior University" Day Camp to Elementary-age students</p>
+                </div>
+
+                <!-- LightBot -->
+                <div class="col-md-3 text-center">
+                    <a href="hhttp://lightbot.com"> <p class="mainfont sitelink">LightBot</p>
+                    </a>
+                    <a href="http://lightbot.com/"><img class="project-logo" src="images/lightbot.png" alt="Light Bot"></a>
+                    <p class="secondfont">Taught to Elementary-age students during Hour of Code</p>
+                </div>
+
+                <!-- Hour of Code -->
+                <div class="col-md-3 text-center">
+                        <a href="https://code.org/learn"> <p class="mainfont sitelink">Code.org's "Hour of Code"</p>
+                        </a>
+                        <a href="https://code.org/learn"><img class="project-logo" src="images/codeorg.png" alt="Hour of Code"></a>
+                        <p class="secondfont">Taught to Elementary-age students during Hour of Code</p>
+                    </div>
+    
+                <!-- CS Fundamentals: Express -->
+                <div class="col-md-3 text-center">
+                    <a href="https://studio.code.org/s/express-2018"> <p class="mainfont sitelink">CS Fundamentals: Express</p>
+                    </a>
+                        <a href="https://studio.code.org/s/express-2018"><img class="project-logo" src="images/codeOrgExpressCourse.png" alt="Code.org Express course"></a>
+                    <p class="secondfont">Taught to High School students.</p>
+                </div>
+            </div>    
         </div>
-        <div class="footer-col col-md-4 social-media">
-            <a href="https://www.linkedin.com/in/ed-warkentin-a1074aa9/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
-            <a href="https://twitter.com/senorw" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-        </div>
-        <div class="footer-col col-md-4 copyright">
-            <p>&copy;2019 Ed Warkentin. All Rights Reserved.</p>
-        </div>
-    </footer>
+    </div>
+            </div>
+            <!-- FOOTER -->
+            <footer class="container-fluid footer headfootcolor">
+                <div class="footer-col col-md-4 contactme">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe7FuMvbrEBtkvqbryuKrRCyoeHY-bTRSRt7GYo0qzFgTR4Q/viewform?usp=sf_link"
+                        target="_blank" class="secondfont">Contact Me</a>
+                </div>
+                <div class="footer-col col-md-4 social-media">
+                    <a href="https://www.linkedin.com/in/ed-warkentin-a1074aa9/" target="_blank"><i
+                            class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://twitter.com/senorw" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+                </div>
+                <div class="footer-col col-md-4 copyright secondfont">
+                    <p>&copy;2019 Ed Warkentin. All Rights Reserved.</p>
+                </div>
+            </footer>
 </body>
 
 </html>
