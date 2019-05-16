@@ -6,11 +6,11 @@
 }
 
 .headfootcolor, .title {
-    background-color: #f0c432;
+    background-color: #FBBC05;
 }
 
 .bottomcolor {
-    background-color: rgb(245, 9, 9);
+    background-color: #EA4334;
 }
 .nav-pills a {
     font-size: 24px;
@@ -18,13 +18,13 @@
 
 .mainfont {
     font-family: 'Concert One', cursive;
-    color: white;
+    color: rgb(3, 0, 0);
 }
 
 .secondfont {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(3, 0, 0);
 }
 
 .headerfont {
@@ -50,19 +50,21 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    opacity: 0.7;
 }
 
 .codingprojects {
     background-color: #3e9d1e;
-    /* background-color: rgb(102, 102, 153, 90); */
 }
 
 .secondrow, .thirdrow {
-    background-color: #5c56c9;
+    background-color: #4185F4;
+    opacity: 0.9;
 }
 
 .project-logo {
     height: 150px;
+    opacity: 1;
 }
 
 .restaurantelogo {
