@@ -89,6 +89,19 @@
     align-self: center;
 }
 
+.linkdark a {
+    color:white;
+}
+
+.a {
+    color:white;
+    text-decoration: none;
+}
+
+.linkwhite {
+    color:white;
+}
+
 /* FOOTER STYLES */
 
 .footer {
