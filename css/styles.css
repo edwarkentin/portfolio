@@ -121,11 +121,15 @@
 }
 
 .contactme, .copyright {
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .fa-twitter-square {
     color: #C32228;    
+}
+
+.bigfootfont {
+    font-size: 20px;
 }
 
 /*********End of Footer********/
